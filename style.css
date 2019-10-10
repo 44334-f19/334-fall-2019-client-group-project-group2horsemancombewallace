@@ -61,5 +61,10 @@ li.dropdown {
 .dropdown-content a:hover {background-color: #BFBFBF;
     color: #F37979}
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.dropdown:hover .dropdown-content {display: block;}
+    
+details {font-family: PuppyBellies;
+    font-size: 1.3em;
+    color: #F37979;
+    text-align: left;
+    padding-left: 50px;}
