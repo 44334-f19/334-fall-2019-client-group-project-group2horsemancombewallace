@@ -1,6 +1,3 @@
-@font-face {font-family: PuppyBellies;
-    src: url("PuppyBellies.ttf");}
-
 @font-face {font-family: Segan;
     src: url("Segan.ttf");}
 
@@ -102,3 +99,4 @@ details {font-family: PuppyBellies;
     color: #F37979;
     text-align: left;
     padding-left: 50px;}
+
