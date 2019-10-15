@@ -9,9 +9,9 @@ body {background-image: url("130061.jpeg");
     background-attachment: fixed;}
 
 footer {background-color: #BFBFBF;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-indent: 25px;
     color: #ffffff;
     font-family: Segan;}
 
@@ -25,11 +25,14 @@ h1 {text-align: center;
     font-size: 3em;
     letter-spacing: 5px;}
 
+#id class="h2" {align-content: center;}
+
 h2 {font-family: PuppyBellies;
-    font-size: 2.5em;
+    font-size: 2.8em;
     text-align: center;
-    color: #7E7E7E;
-    letter-spacing: 5px;}
+    color: #3E0202;
+    letter-spacing: 10px;
+    align-content: center;}
 
 h3 {color:#FEDA87;
     font-family: PuppyBellies;
