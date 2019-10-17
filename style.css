@@ -10,12 +10,19 @@ body {background-image: url("130061.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;}
 
-footer {background-color: #BFBFBF;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-indent: 25px;
-    color: #ffffff;
-    font-family: Segan;}
+footer {background-color: #BFBFBF;}
+
+footer p {color: #ffffff;
+    font-family: Segan;
+    display: inline;
+    margin-left: 25px;}
+
+#footerlinks {background-color: #BFBFBF;
+    width: auto;
+    height: auto;
+    border: none;
+    float: right;
+    margin-right: 25px;}
 
 img {float: right;
     padding-right: 15px;}
