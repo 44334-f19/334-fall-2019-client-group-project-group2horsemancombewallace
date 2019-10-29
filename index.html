@@ -43,7 +43,7 @@
 
 <div class="mySlides fade">
     <div class="numbertext">2 / 5</div>
-    <img id="Puppy" src="04qpSlZP.jpg" alt="Puppy#" style="width:750px;height:470px;">        
+    <img id="Puppy" src="37636982-an-image-of-a-parti-yorkie-puppy-.jpg" alt="Puppy#" style="width:750px;height:470px;">        
     <div class="text"> <h3>Name of Pupper</h3>
         <h4>
             Gender: M/F <br><br>
@@ -54,7 +54,7 @@
 
 <div class="mySlides fade">
     <div class="numbertext">3 / 5</div>
-    <img id="Puppy" src="O4qSlZP.jpg" alt="Puppy#" style="width:750px;height:470px;">        
+    <img id="Puppy" src="8c033cb00f9256592cfa99f97dbb9d1d.jpg" alt="Puppy#" style="width:750px;height:470px;">        
     <div class="text"> <h3>Name of Pupper</h3>
         <h4>
             Gender: M/F <br><br>
@@ -65,7 +65,7 @@
     
 <div class="mySlides fade">
     <div class="numbertext">4 / 5</div>
-    <img id="Puppy" src="O4qSlZP.jpg" alt="Puppy#" style="width:750px;height:470px;">        
+    <img id="Puppy" src="golden-babydoll-face-tea-cup-parti-pup-austin.jpg" alt="Puppy#" style="width:750px;height:470px;">        
     <div class="text"> <h3>Name of Pupper</h3>
         <h4>
             Gender: M/F <br><br>
@@ -76,7 +76,7 @@
     
 <div class="mySlides fade">
     <div class="numbertext">5 / 5</div>
-    <img id="Puppy" src="O4qSlZP.jpg" alt="Puppy#" style="width:750px;height:470px;">        
+    <img id="Puppy" src="Jodiw.jpg" alt="Puppy#" style="width:750px;height:470px;">        
     <div class="text"> <h3>Name of Pupper</h3>
         <h4>
             Gender: M/F <br><br>
@@ -97,6 +97,35 @@
     <span class="dot" onclick="currentSlide(4)"></span>
     <span class="dot" onclick="currentSlide(5)"></span>
 </div>
+        
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
     
     
     <p>Test of the paragraph font.</p>
