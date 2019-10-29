@@ -21,7 +21,8 @@ footer {background-color: #BFBFBF;
 footer p {color: #ffffff;
     font-family: Segan;
     display: inline;
-    margin-left: 25px;}
+    margin-left: 25px;
+    background-color: #BFBFBF;}
 
 #footerlinks {background-color: #BFBFBF;
     width: auto;
@@ -82,20 +83,20 @@ div {width: 1325px;
 
 /* Slideshow container */
 #slideshow {max-width: 500px;
+    width: 1325px;
+    height: 575px;
     position: relative;
     margin: auto;
-    border: none;
+    border: 15px solid #3E0202;
     background-color: none;
     border: 15px solid #3E0202;
     text-align: center;
-    background-color: #3E0202;
-    margin: auto;}
+    background-color: #3E0202;}
+
 .mySlides {display: none}
-#Puppy {vertical-align: left;}
 
 /* Next & previous buttons */
 .prev, .next {cursor: pointer;
-    position: absolute;
     top: 50%;
     width: auto;
     padding: 16px;
@@ -119,9 +120,9 @@ div {width: 1325px;
 .numbertext {color: #ffffff;
     font-family: Segan;
     font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;}
+    text-align: right;
+    padding-right: 265px;
+    top: 0px;}
 
 /* The dots/bullets/indicators */
 .dot {cursor: pointer;
@@ -157,7 +158,11 @@ div {width: 1325px;
 p {font-family: Segan;
     color: #272727;
     font-size: 1.3em;
-    margin-left: 30px;}
+    margin-left: 30px;
+    background-color: #feda87;
+    padding: 5px 5px 5px 5px;
+    text-indent: 25px;
+    line-height: 1.6em;}
 
 ul {list-style-type: none;
     overflow: hidden;
