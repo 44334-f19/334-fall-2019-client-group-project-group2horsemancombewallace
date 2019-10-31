@@ -73,19 +73,19 @@ h5 {font-family: PuppyBellies;
     margin-left: 50px;}
 
 div {width: 1325px;
-    max-height: 500px;
-    border-left: 15px solid #3E0202;
-    border-bottom: 15px solid #3E0202;
-    border-top: 15px solid #3E0202;
+    max-height: 1500px;
     text-align: center;
     background-color: #3E0202;
-    margin: auto;}
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;}
 
-#Puppy {float: left;}
+#Puppy {float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;}
 
 /* Slideshow container */
 #slideshow {width: 1325px;
-    height: 575px;
     position: relative;
     margin: auto;
     text-align: center;}
@@ -153,10 +153,10 @@ div {width: 1325px;
   .prev, .next,.text {font-size: 11px}}
 
 p {font-family: Segan;
-    color: #272727;
+    color: #272727; opacity: 1.0;
     font-size: 1.3em;
-    margin-left: 30px;
-    background-color: #feda87;
+    margin: auto;
+    background-color: #ffffcc;
     padding: 5px 5px 5px 5px;
     text-indent: 25px;
     line-height: 1.6em;}
