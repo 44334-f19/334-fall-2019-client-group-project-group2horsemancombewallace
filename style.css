@@ -36,6 +36,10 @@ img {float: right;
 
 h1 {text-align: center;
     background-color: #F37979;
+    background-image: url(Logo.png);
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-position: 255px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #ffffff;
