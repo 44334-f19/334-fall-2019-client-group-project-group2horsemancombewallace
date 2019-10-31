@@ -74,7 +74,9 @@ h5 {font-family: PuppyBellies;
 
 div {width: 1325px;
     max-height: 500px;
-    border: 15px solid #3E0202;
+    border-left: 15px solid #3E0202;
+    border-bottom: 15px solid #3E0202;
+    border-top: 15px solid #3E0202;
     text-align: center;
     background-color: #3E0202;
     margin: auto;}
@@ -82,18 +84,13 @@ div {width: 1325px;
 #Puppy {float: left;}
 
 /* Slideshow container */
-#slideshow {max-width: 500px;
-    width: 1325px;
+#slideshow {width: 1325px;
     height: 575px;
     position: relative;
     margin: auto;
-    border: 15px solid #3E0202;
-    background-color: none;
-    border: 15px solid #3E0202;
-    text-align: center;
-    background-color: #3E0202;}
+    text-align: center;}
 
-.mySlides {display: none}
+.mySlides {display: none;}
 
 /* Next & previous buttons */
 .prev, .next {cursor: pointer;
