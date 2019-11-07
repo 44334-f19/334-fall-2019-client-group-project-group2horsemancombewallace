@@ -80,6 +80,12 @@ h5 {font-family: PuppyBellies;
     text-align: left;
     margin-left: 50px;}
 
+h6 {font-family: PuppyBellies;
+    font-size: 2em;
+    color: #F37979;
+    margin-left: 25px;
+    text-align: left;}
+
 div {width: 1325px;
     max-height: 1500px;
     text-align: center;
@@ -168,7 +174,13 @@ p {font-family: Segan;
     background-color: rgb(254, 218, 135, 0.25);
     padding: 5px 5px 5px 5px;
     text-indent: 25px;
-    line-height: 1.6em;}
+    line-height: 1.6em;
+    text-decoration: none;}
+
+a:link {text-decoration: none;
+    color: #7E7E7E;}
+
+a:visited {color: #3E0202;}
 
 #fqa {text-align: center;}
 
@@ -236,84 +248,43 @@ details {font-family: PuppyBellies;
     max-width: 100%;
     height: auto;}
 
-/* Image Pop-up (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
+header, main, nav, footer, figure, figcaption { display: block; }
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; background-color: #869dc7;}
+	#wrapper { width: auto; margin: 0;}                                                              
+	main { margin-left: 0; }
+	nav { float: none; 
+		  width: auto; }
+	nav li { display: inline-block; 
+			   padding: 0.5em; }
+	nav ul { text-align: center; }
+	nav a { border-style: none; }
+	h1, h2 { font-size: 120%; }
+	p { font-size: 90%; }
+} 
 
-/* Image Pop-up  Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+@media only screen and (max-width: 768px) 
+{
+    #wrapper { min-width: 0; }
+	
+    header { background-image: url(lighthousemini.jpg); }
+    
+    header h1 { padding-left: 0;
+        background-position: left;}
+	
+    h1, h2 { font-size: 100%; }
+	
+    span { font-size: 80%; } 
+	
+    figure { display: none;}
+	
+    nav, nav ul, nav li { padding: 3px; }
+	
+    nav li { display: block; }
+	
+    nav a { display: block; 
+		padding: 0.5em 0;}
 }
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-
-@keyframes zoom {
-  from {transform: scale(0.1)} 
-  to {transform: scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-
 
 
 
