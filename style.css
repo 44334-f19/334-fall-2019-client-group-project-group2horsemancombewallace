@@ -99,7 +99,7 @@ div {width: 1325px;
     padding-bottom: 20px;}
 
 /* Slideshow container */
-#slideshow {width: 1325px;
+#slideshow {max-width: 1325px;
     position: relative;
     margin: auto;
     text-align: center;}
@@ -264,33 +264,41 @@ header, main, nav, footer, figure, figcaption { display: block; }
     
 	nav a { border-style: none; }
     
-	h1, h2 { font-size: 120%; }
+	h1, h2 { font-size: 120%;}
     
-	p { font-size: 90%;
+    h1 {background-image: none;}
+    
+	p { font-size: 120%;
         margin-left: 3px;
         margin-right: 3px;}
+    
+    #slideshow {max-width: 1016px;
+    position: relative;
+    margin: auto;
+    text-align: center;}
+
 } 
 
 @media only screen and (max-width: 768px) 
 {
     
-    header h1 { padding-left: 0;
-        background-position: -100px;}
+    header h1 {padding-left: 0;
+        background-image: none;}
 	
-    h1, h2 { font-size: 2em;}
+    h1, h2 {font-size: 2em;}
 	
-    span { font-size: 80%; } 
+    span {font-size: 80%; } 
 	
-    figure { display: none;}
+    figure {display: none;}
 	
-    nav, nav ul, nav li { padding: 3px; 
-        text-align: center;
-        margin-right: 12px;}
-	
-    nav li { display: block; }
-	
-    nav a { display: block; 
-		padding: 0.5em 0;}
+    nav {padding: 3px; 
+        text-align: center;}
+
+    
+    #slideshow {max-width: 762px;
+    position: relative;
+    margin: auto;
+    text-align: center;}
 }
 
 
