@@ -86,7 +86,7 @@ h6 {font-family: PuppyBellies;
     margin-left: 25px;
     text-align: left;}
 
-div {width: 1325px;
+div {max-width: 1325px;
     max-height: 1500px;
     text-align: center;
     background-color: #3E0202;
@@ -266,6 +266,8 @@ header, main, nav, footer, figure, figcaption { display: block; }
     
 	h1, h2 { font-size: 120%;}
     
+    h5 {text-align: center;}
+    
     h1 {background-image: none;}
     
 	p { font-size: 120%;
@@ -286,6 +288,8 @@ header, main, nav, footer, figure, figcaption { display: block; }
         background-image: none;}
 	
     h1, h2 {font-size: 2em;}
+    
+    h5 {text-align: center;}
 	
     span {font-size: 80%; } 
 	
