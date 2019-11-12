@@ -3,7 +3,7 @@
     src: url("PuppyBellies.ttf");}
 
 @font-face {font-family: Segan;
-    src: url("Segan.ttf");}
+    src: url("Segan-light.ttf");}
 
 @font-face {font-family: PuppyBellies;
     src: url("PuppyBellies.tff");}
@@ -80,6 +80,12 @@ h5 {font-family: PuppyBellies;
     text-align: left;
     margin-left: 50px;}
 
+h6 {font-family: PuppyBellies;
+    font-size: 2em;
+    color: #F37979;
+    margin-left: 25px;
+    text-align: left;}
+
 div {width: 1325px;
     max-height: 1500px;
     text-align: center;
@@ -93,7 +99,7 @@ div {width: 1325px;
     padding-bottom: 20px;}
 
 /* Slideshow container */
-#slideshow {width: 1325px;
+#slideshow {max-width: 1325px;
     position: relative;
     margin: auto;
     text-align: center;}
@@ -168,9 +174,15 @@ p {font-family: Segan;
     background-color: rgb(254, 218, 135, 0.25);
     padding: 5px 5px 5px 5px;
     text-indent: 25px;
-    line-height: 1.6em;}
+    line-height: 1.6em;
+    text-decoration: none;}
+
+a {text-decoration: none;
+    color: #7E7E7E;}
 
 #fqa {text-align: center;}
+
+.nav {color: #F37979;}
 
 ul {list-style-type: none;
     overflow: hidden;
@@ -232,9 +244,62 @@ details {font-family: PuppyBellies;
 #gallerytext {margin-top: 5px;
     margin-bottom: 0px;}
 
-#galleryimg {margin-bottom: 10px;}
+#galleryimg {margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;}
 
+header, main, nav, footer, figure, figcaption { display: block; }
+@media only screen and (max-width: 1024px) 
+{	                                                              
+	main {margin: 3px, 3px, 3px, 3px; }
+    
+	nav {width: auto; 
+        text-align: center;
+        margin-right: 50px;}
+    
+	nav li {display: inline-block; 
+        padding-right: 20px; }
+    
+	nav ul { text-align: center;}
+    
+	nav a { border-style: none; }
+    
+	h1, h2 { font-size: 120%;}
+    
+    h1 {background-image: none;}
+    
+	p { font-size: 120%;
+        margin-left: 3px;
+        margin-right: 3px;}
+    
+    #slideshow {max-width: 1016px;
+    position: relative;
+    margin: auto;
+    text-align: center;}
 
+} 
+
+@media only screen and (max-width: 768px) 
+{
+    
+    header h1 {padding-left: 0;
+        background-image: none;}
+	
+    h1, h2 {font-size: 2em;}
+	
+    span {font-size: 80%; } 
+	
+    figure {display: none;}
+	
+    nav {padding: 3px; 
+        text-align: center;}
+
+    
+    #slideshow {max-width: 762px;
+    position: relative;
+    margin: auto;
+    text-align: center;}
+}
 
 
 
