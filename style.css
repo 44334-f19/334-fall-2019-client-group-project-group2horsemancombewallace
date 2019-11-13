@@ -270,6 +270,8 @@ header, main, nav, footer, figure, figcaption { display: block; }
     
     h1 {background-image: none;}
     
+    h4 {display: none;}
+    
 	p { font-size: 120%;
         margin-left: 3px;
         margin-right: 3px;}
@@ -278,8 +280,25 @@ header, main, nav, footer, figure, figcaption { display: block; }
     position: relative;
     margin: auto;
     text-align: center;}
+    
+    grid-container {height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;}
+    
+.grid-item {text-align: center;
+    height: auto;
+    width: 270px;}
+    
+    #phonescroll {overflow: auto;
+    white-space: nowrap;}
 
-} 
+    #scrollmenu a {display: inline-block;
+    padding: 14px;
+    text-decoration: none;}
+
+    #scrollmenu a:hover {background-color: #777;}
 
 @media only screen and (max-width: 768px) 
 {
@@ -288,6 +307,8 @@ header, main, nav, footer, figure, figcaption { display: block; }
         background-image: none;}
 	
     h1, h2 {font-size: 2em;}
+    
+    h4 {display: none;}
     
     h5 {text-align: center;}
 	
