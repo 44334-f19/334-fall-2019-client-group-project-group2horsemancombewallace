@@ -254,8 +254,7 @@ header, main, nav, footer, figure, figcaption { display: block; }
 	main {margin: 3px, 3px, 3px, 3px; }
     
 	nav {width: auto; 
-        text-align: center;
-        margin-right: 50px;}
+        text-align: center;}
     
 	nav li {display: inline-block; 
         padding-right: 20px; }
@@ -264,7 +263,7 @@ header, main, nav, footer, figure, figcaption { display: block; }
     
 	nav a { border-style: none; }
     
-	h1, h2 { font-size: 120%;}
+	h1, h2 { font-size: 4em;}
     
     h5 {text-align: center;}
     
@@ -300,31 +299,59 @@ header, main, nav, footer, figure, figcaption { display: block; }
     text-decoration: none;}
 
     #scrollmenu a:hover {background-color: #777;}
+}
 
 @media only screen and (max-width: 768px) 
 {
     
-    header h1 {padding-left: 0;
-        background-image: none;}
-	
-    h1, h2 {font-size: 2em;}
+    main {margin: 3px, 3px, 3px, 3px; }
+    
+	nav {width: auto; 
+        text-align: center;}
+    
+	nav li {display: inline-block; 
+        padding-right: 20px; }
+    
+	nav ul { text-align: center;}
+    
+	nav a { border-style: none; }
+    
+	h1, h2 { font-size: 4em;}
+    
+    h5 {text-align: center;}
+    
+    h1 {background-image: none;}
     
     h4 {display: none;}
     
-    h5 {text-align: center;}
-	
-    span {font-size: 80%; } 
-	
-    figure {display: none;}
-	
-    nav {padding: 3px; 
-        text-align: center;}
-
+	p { font-size: 120%;
+        margin-left: 3px;
+        margin-right: 3px;}
     
-    #slideshow {max-width: 762px;
+    #slideshow {max-width: 1016px;
     position: relative;
     margin: auto;
-    text-align: center;}
+    text-align: center;
+    height: auto;}
+    
+    grid-container {height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;}
+    
+.grid-item {text-align: center;
+    height: auto;
+    width: 270px;}
+    
+    #phonescroll {overflow: auto;
+    white-space: nowrap;}
+
+    #scrollmenu a {display: inline-block;
+    padding: 14px;
+    text-decoration: none;}
+
+    #scrollmenu a:hover {background-color: #777;}
 }
 
 
