@@ -163,6 +163,7 @@ div {max-width: 1325px;
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}}
 
+
 p {font-family: Novus-Light;
     color: #272727; opacity: 1.0;
     font-size: 1.3em;
@@ -245,10 +246,13 @@ details {font-family: PuppyBellies;
     max-width: 100%;
     height: auto;}
 
+
 header, main, nav, footer, figure, figcaption { display: block; }
 @media only screen and (max-width: 1024px) 
 {	                                                              
 	main {margin: 3px, 3px, 3px, 3px; }
+    
+    body {background-image: url("697301.jpg")}
     
 	nav {max-width: 1018px; 
         text-align: center;}
@@ -273,7 +277,7 @@ header, main, nav, footer, figure, figcaption { display: block; }
         margin-left: 3px;
         margin-right: 3px;}
     
-     #Puppy {max-height: 500px;
+     #Puppy {max-height: 475px;
         max-width: 1075px;}
     
     div {min-height: 145px;}
