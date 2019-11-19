@@ -280,8 +280,8 @@ header, main, nav, footer, figure, figcaption { display: block; }
         margin-right: 3px;
         background-color: rgb(254, 218, 135, 0.25);}
     
-     #Puppy {max-height: 275px;
-        max-width: 1075px;}
+     #Puppy {max-height: 225px;
+        max-width: 1000px;}
     
     div {min-height: 145px;}
     
