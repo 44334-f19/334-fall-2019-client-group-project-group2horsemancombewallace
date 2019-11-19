@@ -252,7 +252,9 @@ header, main, nav, footer, figure, figcaption { display: block; }
 {	                                                              
 	main {margin: 3px, 3px, 3px, 3px; }
     
-    body {background-image: url("697301.jpg")}
+    body {background-image: url("697301.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;}
     
 	nav {max-width: 1018px; 
         text-align: center;}
@@ -275,7 +277,8 @@ header, main, nav, footer, figure, figcaption { display: block; }
     
 	p { font-size: 200%;
         margin-left: 3px;
-        margin-right: 3px;}
+        margin-right: 3px;
+        background-color: rgb(254, 218, 135, 0.25);}
     
      #Puppy {max-height: 475px;
         max-width: 1075px;}
