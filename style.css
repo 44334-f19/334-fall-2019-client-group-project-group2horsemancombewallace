@@ -196,7 +196,7 @@ li {float: left;
 li a, .dropbtn {display: inline-block;
     font-family: PuppyBellies;
     font-size: 2em;
-    color: #F37979;
+    color: #3E0202;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;}
@@ -246,6 +246,16 @@ details {font-family: PuppyBellies;
     max-width: 100%;
     height: auto;}
 
+/*found a forever home*/
+
+#container {position: relative;}
+
+.bottomleft {position: absolute;
+    bottom: 5px;
+    left: 15px;
+    font-size: 22px;
+    font-family: PuppyBellies;
+    color: #F37979;}
 
 header, main, nav, footer, figure, figcaption { display: block; }
 @media only screen and (max-width: 1024px) 
