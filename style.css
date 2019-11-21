@@ -34,6 +34,9 @@ img {float: right;
 #Family {direction: block;
     float: left;}
 
+#intext {position: absolute;
+    text-wrap: 2px;}
+
 h1 {text-align: center;
     background-color: #3E0202;
     background-image: url(Logo.png);
@@ -82,6 +85,11 @@ h6 {font-family: PuppyBellies;
     color: #F37979;
     margin-left: 25px;
     text-align: left;}
+
+.sold{background-image: url("PinkPawPrint%20copy.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    margin-left: 15px;}
 
 div {max-width: 1325px;
     min-height: 25px;
@@ -246,16 +254,6 @@ details {font-family: PuppyBellies;
     max-width: 100%;
     height: auto;}
 
-/*found a forever home*/
-
-#container {position: relative;}
-
-.bottomleft {position: absolute;
-    bottom: 5px;
-    left: 15px;
-    font-size: 22px;
-    font-family: PuppyBellies;
-    color: #F37979;}
 
 header, main, nav, footer, figure, figcaption { display: block; }
 @media only screen and (max-width: 1024px) 
@@ -328,6 +326,7 @@ header, main, nav, footer, figure, figcaption { display: block; }
     text-decoration: none;}
 
     #scrollmenu a:hover {background-color: #777;}
+    
 }
 
 @media only screen and (max-width: 768px) 
