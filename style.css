@@ -39,7 +39,6 @@ img {float: right;
 
 h1 {text-align: center;
     background-color: #3E0202;
-    background-image: url(Logo.png);
     background-size: 13%;
     background-repeat: no-repeat;
     background-position: 255px;
@@ -262,6 +261,7 @@ header, main, nav, footer, figure, figcaption { display: block; }
     
     body {background-image: url("697301.jpg");
         background-repeat: no-repeat;
+        background-size: 1024px 1500px;
         background-attachment: fixed;}
     
 	nav {max-width: 1018px; 
@@ -288,7 +288,7 @@ header, main, nav, footer, figure, figcaption { display: block; }
         margin-right: 3px;
         background-color: rgb(254, 218, 135, 0.25);}
     
-     #Puppy {max-height: 250px;
+     #Puppy {max-height: 450px;
         width: 1000px;}
     
     div {min-height: 145px;}
@@ -325,13 +325,81 @@ header, main, nav, footer, figure, figcaption { display: block; }
     padding: 14px;
     text-decoration: none;}
 
-    #scrollmenu a:hover {background-color: #777;}
-    
+    #scrollmenu a:hover {background-color: #777;} 
 }
 
 @media only screen and (max-width: 768px) 
 
+{   main {margin: 3px, 3px, 3px, 3px; }
+    
+    body {background-image: url("697301.jpg");
+        background-repeat: no-repeat;
+        background-size: 1024px 1500px;
+        background-attachment: fixed;}
+    
+	nav {max-width: 1018px; 
+        text-align: center;}
+    
+	nav li {display: inline-block; 
+        padding-right: 25px;
+    margin-left: -30px;}
+    
+	nav ul { text-align: center;}
+    
+	nav a { border-style: none; }
+    
+	h1, h2 { font-size: 200%;}
+    
+    h5 {text-align: center;}
+    
+    h1 {background-image: none;}
+    
+    h4 {display: none;}
+    
+	p { font-size: 200%;
+        margin-left: 3px;
+        margin-right: 3px;
+        background-color: rgb(254, 218, 135, 0.25);}
+    
+     #Puppy {max-height: 450px;
+        width: 1000px;}
+    
+    div {min-height: 145px;}
+    
+    #gallery{max-width: 975px;
+    margin-left: -5px;
+    display: inline-flex;}
+    
+    #galleryimg {padding-left: 15px;}
+    
+    #footerlinks {height: 0px;}
+    
+    #slideshow {max-width: 1016px;
+    position: relative;
+    margin: auto;
+    text-align: center;}
+    
+    .numbertext {display: none;}
+    
+    grid-container {height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;}
+    
+.grid-item {text-align: center;
+    height: auto;
+    width: 270px;}
+    
+    #phonescroll {overflow: auto;
+    white-space: nowrap;}
 
+    #scrollmenu a {display: inline-block;
+    padding: 14px;
+    text-decoration: none;}
+
+    #scrollmenu a:hover {background-color: #777;} 
+}
 
 
 
