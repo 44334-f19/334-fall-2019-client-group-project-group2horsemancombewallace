@@ -334,8 +334,7 @@ header, main, nav, footer, figure, figcaption { display: block; }
     
     body {background-image: url("697301.jpg");
         background-repeat: no-repeat;
-        background-size: 1024px 1500px;
-        background-attachment: fixed;}
+        background-size: 768px 2000px;}
     
 	nav {max-width: 1018px; 
         text-align: center;}
@@ -361,7 +360,7 @@ header, main, nav, footer, figure, figcaption { display: block; }
         margin-right: 3px;
         background-color: rgb(254, 218, 135, 0.25);}
     
-     #Puppy {max-height: 450px;
+     #Puppy {max-height: 375px;
         width: 1000px;}
     
     div {min-height: 145px;}
